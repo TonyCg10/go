@@ -1,0 +1,46 @@
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Compiled binary executables
+main
+main.exe
+*.exe
+*.dll
+*.dylib
+*.test
+
+# Test binaries
+*.out
+
+# Dependencies (Go modules)
+vendor/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency cache
+go.sum
+
+# Editor or IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Go coverage files
+coverage.out
+*.cov
+
+# Build artifacts
+dist/
+bin/
